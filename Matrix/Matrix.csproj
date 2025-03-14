@@ -4,6 +4,22 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Title>Matrix</Title>
+        <Authors>SteeveeG</Authors>
+        <Description>The Matrix library is a small yet powerful tool that allows you to create a letter matrix in the console, reminiscent of those seen in iconic films. This library generates a sequence of "random words" that gradually transform into a predefined target word or phrase.</Description>
+        <PackageProjectUrl>https://github.com/SteeveeG/Matrix</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/SteeveeG/Matrix/blob/main/LICENSE</PackageLicenseUrl>
+        <PackageIcon>Matrix.png</PackageIcon>
+        <RepositoryUrl>https://github.com/SteeveeG/Matrix</RepositoryUrl>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>SteeveeG.Matrix</PackageId>
     </PropertyGroup>
+
+    <ItemGroup>
+      <None Update="Matrix.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+      </None>
+    </ItemGroup>
 
 </Project>
