@@ -11,8 +11,10 @@
         <PackageLicenseUrl>https://github.com/SteeveeG/Matrix/blob/main/LICENSE</PackageLicenseUrl>
         <PackageIcon>Matrix.png</PackageIcon>
         <RepositoryUrl>https://github.com/SteeveeG/Matrix</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>SteeveeG.Matrix</PackageId>
+        <Version>1.0.1</Version>
     </PropertyGroup>
 
     <ItemGroup>
